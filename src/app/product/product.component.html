@@ -1,0 +1,9 @@
+<h1>This is a the {{ title }}!</h1>
+<h1>My Products</h1>
+<div *ngIf="!isDisabled">
+  <input type="text" [(ngModel)]="productName" placeholder="New product">
+  <button mat-icon-button color="accent" (click)="onAddProduct()" [disabled]="isDisabled">
+    <mat-icon>home</mat-icon>
+  </button>
+</div>
+<div *ngFor="let product of products">{{ product }}</div>
