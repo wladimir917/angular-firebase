@@ -4,7 +4,9 @@ import { MatButtonModule,
   MatFormFieldModule,
   MatInputModule,
   MatDatepickerModule,
-  MatNativeDateModule } from '@angular/material';
+  MatNativeDateModule,
+  MatCheckboxModule
+} from '@angular/material';
 
 @NgModule ({
   imports: [
@@ -13,7 +15,8 @@ import { MatButtonModule,
     MatFormFieldModule,
     MatInputModule,
     MatDatepickerModule,
-    MatNativeDateModule
+    MatNativeDateModule,
+    MatCheckboxModule
   ],
   exports: [
     MatButtonModule,
@@ -21,7 +24,8 @@ import { MatButtonModule,
     MatFormFieldModule,
     MatInputModule,
     MatDatepickerModule,
-    MatNativeDateModule
+    MatNativeDateModule,
+    MatCheckboxModule
   ]
 })
 
