@@ -1,2 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  /* background: red; */
+}
+
+body {
+  margin: 0;
+  /* background: rgb(133, 192, 248); */
+  background-image: url('./assets/background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
